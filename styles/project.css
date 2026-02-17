@@ -1,0 +1,28 @@
+html{
+    background-image: linear-gradient(to left, white, lightgray);
+}
+body{
+    width: 90;
+    margin: auto;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+a{
+    color:maroon;
+    text-decoration: none;
+}
+a:focus,
+a:hover{
+    border: 3px blue;
+    border-style: dotted solid;
+}
+h1,h2,h3,h4,h5,h6{
+    color:maroon;
+}
+.shadow{
+    text-shadow:2px 2px 5px grey;
+}
+article{
+    clear: left;
+    width: 70;
+    float: left
+}
