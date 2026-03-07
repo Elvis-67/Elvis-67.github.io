@@ -75,14 +75,14 @@ aside {
     background-color: #ffebc6;
     padding: 1em;
 }
-footer p.copyright {
+footer {
     clear: both;
     border-top: 2px solid maroon;
     margin-top: 1em;
-    text-align: center;
-
 }
-
+footer p.copyright {
+    text-align: center;
+}
 p.fixed {
     position: fixed;
     bottom: 10px;
