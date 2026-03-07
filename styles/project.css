@@ -1,27 +1,27 @@
-html{
+html {
     background-image: linear-gradient(to left, white, lightgray);
 }
-body{
+body {
     width: 90%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-a{
+a {
     color:maroon;
     text-decoration: none;
 }
 a:focus,
-a:hover{
+a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
 h1,h2,h3,h4,h5,h6{
     color:maroon;
 }
-.shadow{
+.shadow {
     text-shadow:2px 2px 5px grey;
 }
-article{
+article {
     clear: left;
     width: 70%;
     float: left;
@@ -38,7 +38,7 @@ article img {
     margin-right: 1em;
     margin-bottom: 1em;
 }
-article p::first-letter{
+article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
