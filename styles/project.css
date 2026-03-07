@@ -75,11 +75,13 @@ aside {
     background-color: #ffebc6;
     padding: 1em;
 }
-footer {
+footer p.copyright {
     clear: both;
     border-top: 2px solid maroon;
     margin-top: 1em;
+
 }
+
 p.fixed {
     position: fixed;
     bottom: 10px;
