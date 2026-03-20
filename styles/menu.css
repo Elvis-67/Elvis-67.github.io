@@ -22,6 +22,9 @@ nav{
     text-decoration: none;
     border-right: 2px solid white;
 }
+.menu li:last-child a {
+    border-right: none;
+}
 .menu li a.active {
     color: yellow;
 }
