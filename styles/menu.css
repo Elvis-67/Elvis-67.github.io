@@ -33,7 +33,7 @@ article{
     padding: 10px;
 }
 aside {
-    position:;
+    float: right;
     right: 20px;
     top: 150px;
     width: 250px;
