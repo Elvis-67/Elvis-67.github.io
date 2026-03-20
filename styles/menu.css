@@ -6,6 +6,11 @@ nav{
     width: 600px;
     margin-bottom: 20px;
 }
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .menu li {
     display: inline-block;
 
@@ -25,7 +30,7 @@ article{
     padding: 10px;
 }
 aside {
-    position:absolute;
+    position:;
     right: 20px;
     top: 150px;
     width: 250px;
