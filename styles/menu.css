@@ -20,3 +20,20 @@ nav{
 .menu li a.active {
     color: yellow;
 }
+article{
+    margin-right: 300px;
+    padding: 10px;
+}
+aside {
+    position:absolute;
+    right: 20px;
+    top: 150px;
+    width: 250px;
+}
+aside ol {
+    list-style-type: upper-roman;
+
+}
+aside ul {
+    list-style-type: square;
+}
