@@ -2,5 +2,79 @@ body {
     width: 95%;
     margin: 15px auto;
     font-family: Arial, sans-serif;
-    background-image: ;
+    background-image: url("../images/spider.webp");
+    background-attachment: fixed;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li {
+    flex: 1;
+}
+nav a {
+    display: block;
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+nav a:hover {
+    background: darkblue;
+}
+article {
+    width: 75%;
+    float: left;
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 3px dashed blue;
+}
+h1 {
+    color: blue;
+}
+h2 {
+    color: blue;
+}
+p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    font-style: italic;
+}
+img {
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+aside {
+    width: 20%;
+    float: right;
+    position: fixed;
+    right: 2%;
+    top: 150px;
+    background: #a8c4d0;
+    padding: 15px;
+    border: 2px solid blue;
+}
+aside ul {
+    list-style-type: upper-roman;
+}
+aside ul ul {
+    list-style-type: square;
+    margin-left: 15px;
+}
+hr {
+    border: 2px solid blue;
+    clear: both;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+footer a {
+    color: blue;
+    text-decoration: none;
 }
