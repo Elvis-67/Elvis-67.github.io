@@ -1,3 +1,6 @@
+html {
+    background-image: linear-gradient(to left, white, #2b51cc 100%);
+}
 body {
     width: 95%;
     margin: 20px auto;
