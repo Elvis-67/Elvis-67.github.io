@@ -21,6 +21,7 @@ nav ul {
     display: flex;
     justify-content: flex-start;
     gap: 5px;
+    list-style: none;
 }
 nav li {
     flex: none;
