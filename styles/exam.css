@@ -12,26 +12,26 @@ body {
     background-attachment: fixed;
 }
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
+    justify-content: flex-start;
+    gap: 5px;
 }
 nav li {
-    flex: 1;
+    flex: none;
 }
 nav a {
     display: block;
     background: blue;
     color: white;
     text-align: center;
-    padding: 12px;
+    padding: 8px 20px;
     text-decoration: none;
     border-right: 1px solid white;
 }
 nav a:hover {
     background: darkblue;
 }
+nav {margin-left: 10px;}
 article {
     width: 75%;
     float: left;
