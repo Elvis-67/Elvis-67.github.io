@@ -43,6 +43,7 @@ h1 {
     margin-top: 10px;
     margin-bottom: 15px;
     color: blue;
+    column-span: all;
 }
 h2 {
     margin-top: 20px;
