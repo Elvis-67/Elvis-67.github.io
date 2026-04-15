@@ -19,12 +19,15 @@ html, body {
     height: 3em;
     padding: 1em;
 }
-
+.top-nav div p {
+    margin: 0;
+    font-weight: bold;
+}
 .menu {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin: 0;
+    margin-left: auto;
     padding: 0;
 }
 
@@ -91,8 +94,9 @@ section a {
 a.current {
     text-decoration: underline;
 }
-rticle {
+article {
     padding: 0 1em;
+    margin-top: 10px;
 }
 
 article h2 {
